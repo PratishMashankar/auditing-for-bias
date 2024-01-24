@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes a dataset from ProPublica to predict recidivism risk. The dataset includes 7,214 individuals and their characteristics like age, sex, race, and recidivism status. We performed data preprocessing, feature engineering, selection, cleaning, imbalance handling, and scaling. Various models, including linear and non linear classifiers, ensembles, and boosting algorithms, were tested. The highest accuracy of 69.37% was achieved with a gradient boosting machine. False positive rates were computed for African-American and Caucasian individuals, revealing bias towards the former. We also explored bias mitigation using a Diversity Parity fair classifier. These biases have societal implications, perpetuating systemic racism and discrimination
+This project analyzes a dataset from ProPublica to predict recidivism risk. The dataset includes 7,214 individuals and their characteristics like age, sex, race, and recidivism status. We performed data preprocessing, feature engineering, selection, cleaning, imbalance handling, and scaling. Various models, including linear and nonlinear classifiers, ensembles, and boosting algorithms, were tested. The highest accuracy of 69.37% was achieved with a gradient boosting machine. False positive rates were computed for African-American and Caucasian individuals, revealing bias towards the former. We also explored bias mitigation using a Diversity Parity fair classifier. These biases have societal implications, perpetuating systemic racism and discrimination
 
 ## Problem Statement
 
@@ -30,7 +30,7 @@ The provided report follows a structured approach, covering the following key se
 
 ## Insights and Recommendations
 
-The analysis reveals notable bias towards African-American individuals in the COMPAS algorithm, raising concerns about systemic racism and discrimination. The impact of removing the race variable suggests the presence of indirect correlations, emphasizing the need for careful consideration of protected features. The use of a fair classifier shows promise in improving fairness but highlights the trade-off between fairness and accuracy.
+The analysis reveals a notable bias towards African-American individuals in the COMPAS algorithm, raising concerns about systemic racism and discrimination. The impact of removing the race variable suggests the presence of indirect correlations, emphasizing the need for careful consideration of protected features. The use of a fair classifier shows promise in improving fairness but highlights the trade-off between fairness and accuracy.
 
 ## Future Directions
 
@@ -44,7 +44,7 @@ The project underscores the importance of ongoing research and development in cr
 
 **Note:** This README provides a concise overview of the project, and readers are encouraged to refer to the full report for detailed insights and analysis.
 
-The ProPublica's story can be read here and their analysis can be found here. The COMPASS' defence can be read here. 
+ProPublica's story can be read [here](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) and their analysis can be found [here](https://github.com/propublica/compas-analysis). COMPASS' defense can be read [here](https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/). 
 
 ## Declaration
 Project submitted towards the partial procurement of credits for CS584 Introduction to Data Mining at GMU under Professor Sanmay Das.
