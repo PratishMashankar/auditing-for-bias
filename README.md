@@ -42,7 +42,7 @@ The project underscores the importance of ongoing research and development in cr
 - auditing_for_bias_report.pdf
 - requirements.txt
 
-**Note:** This README provides a concise overview of the project, and readers are encouraged to refer to the full report for detailed insights and analysis.
+**Note:** This README provides a concise overview of the project, and readers are encouraged to refer to the [full report](https://github.com/PratishMashankar/auditing-for-bias/blob/master/auditing_for_bias_report.pdf) for detailed insights and analysis.
 
 ProPublica's story can be read [here](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) and their analysis can be found [here](https://github.com/propublica/compas-analysis). COMPASS' defense can be read [here](https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/17/can-an-algorithm-be-racist-our-analysis-is-more-cautious-than-propublicas/). 
 
