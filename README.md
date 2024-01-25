@@ -1,5 +1,4 @@
-# README
-
+# Auditing for Bias
 ## Project Overview
 
 This project analyzes a dataset from ProPublica to predict recidivism risk. The dataset includes 7,214 individuals and their characteristics like age, sex, race, and recidivism status. We performed data preprocessing, feature engineering, selection, cleaning, imbalance handling, and scaling. Various models, including linear and nonlinear classifiers, ensembles, and boosting algorithms, were tested. The highest accuracy of 69.37% was achieved with a gradient boosting machine. False positive rates were computed for African-American and Caucasian individuals, revealing bias towards the former. We also explored bias mitigation using a Diversity Parity fair classifier. These biases have societal implications, perpetuating systemic racism and discrimination
